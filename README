@@ -1,0 +1,16 @@
+This class allows you to display an horizontal wheel to pick a value from a list.
+
+It can be used for the same features as a UIPickerView for example, choosing a value from a list,
+but contrary to the UIPickerView, it can have the size you need and scrolls horizontally.
+
+To use it, you simply have to set the texts property to an NSArray of NSStrings.
+You can then connect the ValueChanged event of the SwipeWheel to whatever IBAction you want, to
+implement any action needed each time the user changes the current value of the SwipeWheel.
+
+You can also configure its properties like of course the array of texts it displays, but also the
+text font and color, the colors of the gradient at the borders, the width of the borders… 
+You also have access to the selectionIndicator layer which allows you to customize its
+borderColor, backgroundColor, of hide it ('hidden' property of the CALayer)
+
+
+See the "SwipeWheel Example" project for a basic usage example.
