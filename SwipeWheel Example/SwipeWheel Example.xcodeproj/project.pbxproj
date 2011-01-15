@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		093DB744124E70E5007AA9A8 /* SwipeWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 093DB743124E70E5007AA9A8 /* SwipeWheel.m */; };
 		093DB756124E7372007AA9A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093DB755124E7372007AA9A8 /* QuartzCore.framework */; };
+		09BAC57212E25E1E00C3B95B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 09BAC56E12E25E1E00C3B95B /* LICENSE */; };
+		09BAC57312E25E1E00C3B95B /* OHSwipeWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BAC57012E25E1E00C3B95B /* OHSwipeWheel.m */; };
+		09BAC57412E25E1E00C3B95B /* README in Resources */ = {isa = PBXBuildFile; fileRef = 09BAC57112E25E1E00C3B95B /* README */; };
 		1D3623260D0F684500981E51 /* SwipeWheel_ExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SwipeWheel_ExampleAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -18,9 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		093DB742124E70E5007AA9A8 /* SwipeWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeWheel.h; path = ../SwipeWheel.h; sourceTree = SOURCE_ROOT; };
-		093DB743124E70E5007AA9A8 /* SwipeWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeWheel.m; path = ../SwipeWheel.m; sourceTree = SOURCE_ROOT; };
 		093DB755124E7372007AA9A8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		09BAC56E12E25E1E00C3B95B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		09BAC56F12E25E1E00C3B95B /* OHSwipeWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHSwipeWheel.h; sourceTree = "<group>"; };
+		09BAC57012E25E1E00C3B95B /* OHSwipeWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHSwipeWheel.m; sourceTree = "<group>"; };
+		09BAC57112E25E1E00C3B95B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* SwipeWheel_ExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeWheel_ExampleAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* SwipeWheel_ExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeWheel_ExampleAppDelegate.m; sourceTree = "<group>"; };
@@ -53,10 +57,20 @@
 			children = (
 				1D3623240D0F684500981E51 /* SwipeWheel_ExampleAppDelegate.h */,
 				1D3623250D0F684500981E51 /* SwipeWheel_ExampleAppDelegate.m */,
-				093DB742124E70E5007AA9A8 /* SwipeWheel.h */,
-				093DB743124E70E5007AA9A8 /* SwipeWheel.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		09BAC56D12E25E0200C3B95B /* OHSwipeWheel */ = {
+			isa = PBXGroup;
+			children = (
+				09BAC56E12E25E1E00C3B95B /* LICENSE */,
+				09BAC57112E25E1E00C3B95B /* README */,
+				09BAC56F12E25E1E00C3B95B /* OHSwipeWheel.h */,
+				09BAC57012E25E1E00C3B95B /* OHSwipeWheel.m */,
+			);
+			name = OHSwipeWheel;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -70,6 +84,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				09BAC56D12E25E0200C3B95B /* OHSwipeWheel */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -158,6 +173,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				09BAC57212E25E1E00C3B95B /* LICENSE in Resources */,
+				09BAC57412E25E1E00C3B95B /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +187,7 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* SwipeWheel_ExampleAppDelegate.m in Sources */,
-				093DB744124E70E5007AA9A8 /* SwipeWheel.m in Sources */,
+				09BAC57312E25E1E00C3B95B /* OHSwipeWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +230,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -227,7 +244,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};

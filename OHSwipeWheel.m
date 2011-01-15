@@ -1,19 +1,19 @@
 //
-//  SwipeWheel.m
+//  OHSwipeWheel.m
 //  Test-SandBox
 //
 //  Created by Olivier on 24/09/10.
 //  Copyright 2010 AliSoftware. All rights reserved.
 //
 
-#import "SwipeWheel.h"
+#import "OHSwipeWheel.h"
 
-@interface SwipeWheel()
+@interface OHSwipeWheel()
 -(void)configureView;
 @end
 
 
-@implementation SwipeWheel
+@implementation OHSwipeWheel
 
 -(void)configureView {
 	// ScrollView

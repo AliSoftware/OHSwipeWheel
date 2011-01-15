@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SwipeWheel.h"
+#import "OHSwipeWheel.h"
 
 @interface SwipeWheel_ExampleAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow* window;
 	
-	IBOutlet SwipeWheel* colorWheel;
-	IBOutlet SwipeWheel* sizeWheel;
+	IBOutlet OHSwipeWheel* colorWheel;
+	IBOutlet OHSwipeWheel* sizeWheel;
 	IBOutlet UILabel* exampleLabel;
 }
 @property (nonatomic, retain) IBOutlet UIWindow* window;
